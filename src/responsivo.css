@@ -1,0 +1,102 @@
+@media (max-width: 990px) {
+    header {
+        padding: 20px 50px;
+        flex-direction: column;
+
+    }
+    .navigation {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 10px 0;
+
+    }
+    .banner {
+        padding: 100px 50px;
+
+    }
+    .movieTitle {
+        max-width: 400px;
+        
+    }
+    .banner .watch-trailer {
+        left: 50px;
+        font-size: 1em;
+    }
+    .watch-trailer img {
+        margin-right: 10px;
+        max-width: 40px;
+    }
+    .trailer video {
+        max-width: 90%;
+
+    }
+}
+
+@media (max-width: 600px) {
+    header {
+        padding: 20px;
+
+    }
+    header .logo img {
+        max-width: 100px;
+
+    }
+    .movieTitle {
+        max-width: 250px;
+        margin-left: 0.7em;
+
+    }
+    .search {
+        position: relative;
+        width: 200px;
+        height: 40px;
+
+    }
+    .banner {
+        padding: 220px 20px 200px;
+        margin-top: 80px;
+
+    }
+    .serie-icon{
+        padding-left: 0em;
+        align-items: center;
+        flex-direction: column;
+
+    }
+    .serie-icon > img{
+        margin-right: 0px;
+        margin-bottom: 5px;
+       
+    }
+    .serie-icon h5{
+        font-size: 8px;
+
+    }
+    .centralizando > h4{
+        margin-top: 13px;
+
+    }
+    .banner .watch-trailer {
+        left: 20px;
+        font-size: 1em;
+        bottom: 30px;
+
+    }
+}
+@media (max-width: 400px){
+    .navigation {
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .navigation li{
+        margin-top: 10px;
+        margin-bottom: 5px;
+
+    }
+    .banner img{
+        margin-top: 40px;
+        
+    }
+}
