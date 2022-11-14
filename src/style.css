@@ -3,7 +3,7 @@
 body {
     font-family: mulish;
     background: #fff;
-    background: linear-gradient(90deg, #000, #000a 35%, #0000), url(/imgs/stranger_things_back.jpg);
+    background: linear-gradient(90deg, #000, #000a 35%, #0000), url(../imgs/stranger_things_back.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
